@@ -15,16 +15,16 @@
 */
 package net.milkbowl.vault;
 
-import net.milkbowl.vault.Vault;
+import me.justeli.payment.Method;
 import net.milkbowl.vault.economy.Economy;
 
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.RegisteredServiceProvider;
 
-import com.nijikokun.register.payment.Method;
 
 @SuppressWarnings("deprecation")
-public class VaultEco implements Method {
+public class VaultEco implements Method
+{
 
     private Vault vault;
     private Economy economy;
