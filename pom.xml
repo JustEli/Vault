@@ -75,9 +75,8 @@ Vault currently supports the following: Permissions 3, PEX, GroupManager, bPerms
 		<dependency>
 			<groupId>me.justeli.instance</groupId>
 			<artifactId>Portandum</artifactId>
-			<version>3</version>
-			<scope>system</scope>
-			<systemPath>${basedir}/../../plugins/lib/Portandum.jar</systemPath>
+			<version>1.0-SNAPSHOT</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.bukkit</groupId>
@@ -92,10 +91,9 @@ Vault currently supports the following: Permissions 3, PEX, GroupManager, bPerms
 		<dependency>
 			<groupId>ru.tehkode</groupId>
 			<artifactId>PermissionsEx</artifactId>
-			<version>1.23</version>
-			<optional>true</optional>
+			<version>1.23.4</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/../../plugins/lib/PermissionsEx-1.23.4.jar</systemPath>
+			<systemPath>${basedir}/../../library/PermissionsEx.jar</systemPath>
 		</dependency>
 	</dependencies>
 
